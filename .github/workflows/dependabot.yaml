@@ -1,5 +1,5 @@
 # Versão: 1.0
-name: "Verificação de Dependências"
+name: Dependencies Analysis
 
 updates:
   - package-ecosystem: "github-actions"

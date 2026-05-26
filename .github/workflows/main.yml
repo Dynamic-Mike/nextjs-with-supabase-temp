@@ -1,2 +1,16 @@
 # Versão: 1.0
-name: "Implementar Verificação de Segurança"
+name: Security Review
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  echo:
+    name: Rodar um echo
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run manual build steps
+      shell: bash
+      run: echo Hello World!
