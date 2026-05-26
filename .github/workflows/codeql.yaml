@@ -1,5 +1,5 @@
+# Versão: 1.0
 name: "CodeQL Advanced"
-version: 2
 
 on:
   push:
